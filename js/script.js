@@ -19,7 +19,7 @@ console.log(sohpItems)
     let listItem = ''
     // ciclo while
 //    condizione : 
-while(sohpItems.lengt){
+while(i < sohpItems.length){
     //monto i <li> da inserire in html dinamicamente 
     listItem += `<li>${sohpItems[i]}</li>`
     console.log(sohpItems[i])
